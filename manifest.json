@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "My WebAuthn Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icon.ico", "48": "icon.ico", "128": "icon.ico" }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ]
+}
